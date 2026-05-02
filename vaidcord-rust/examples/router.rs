@@ -1,7 +1,7 @@
 fn main() -> Result<(), vaidcord::Error> {
     let mut router = vaidcord::Router::new();
 
-    vaidcord::on_message!(
+    vaidcord::register_on_message!(
         router,
         |message: &vaidcord::Message| {
             println!("{}", vaidcord::inline_code(&message.content));
