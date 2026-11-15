@@ -59,7 +59,7 @@ def test_http_config_uses_library_metadata_headers() -> None:
 
 
 def test_metadata_user_agent_uses_canonical_repository_url() -> None:
-    assert PROJECT_URL == "https://github.com/Vadim-Khristenko/vaidcord"
+    assert PROJECT_URL == "https://github.com/VAIPROG/vaidcord"
     assert PROJECT_URL in build_user_agent()
     assert f"vaidcord/{__version__}" in build_user_agent()
 

@@ -25,7 +25,7 @@ through GitHub Actions OIDC. Do not store PyPI API tokens in the repository.
 Configure PyPI with:
 
 - Project name: `vaidcord`
-- Owner/repository: `Vadim-Khristenko/vaidcord`
+- Owner/repository: `VAIPROG/vaidcord`
 - Workflow name: `publish-pypi.yml`
 - Environment: `pypi`
 

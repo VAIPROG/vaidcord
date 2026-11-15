@@ -301,7 +301,7 @@ The three SDKs intentionally share these guarantees:
 
 * **API reference** — generated per-language via `pdoc` (Python),
   `cargo doc` (Rust), and `go doc` (Go).
-* **Issue tracker** — https://github.com/Vadim-Khristenko/vaidcord/issues
+* **Issue tracker** — https://github.com/VAIPROG/vaidcord/issues
 * **Per-language docs**:
   * Python: `vaidcord-py/docs/` (filters, middleware, voice, OAuth2, ...).
   * Rust: inline `///` rustdoc; `cargo doc --open --no-deps`.

@@ -31,7 +31,7 @@ FALLBACK_SECTION = "## 🔀 Other changes"
 INSTALL_SNIPPETS = {
     "python": "```bash\npip install 'vaidcord[voice]=={version}'\n```",
     "rust": "```bash\ncargo add vaidcord@{version}\n```",
-    "go": "```bash\ngo get github.com/Vadim-Khristenko/vaidcord/vaidcord-go@v{version}\n```",
+    "go": "```bash\ngo get github.com/VAIPROG/vaidcord/vaidcord-go@v{version}\n```",
 }
 
 
@@ -98,7 +98,7 @@ def main() -> None:
     parser.add_argument("--card-url", default="")
     parser.add_argument("--summary", default="")
     parser.add_argument("--highlight", action="append", default=[])
-    parser.add_argument("--repo", default="Vadim-Khristenko/vaidcord")
+    parser.add_argument("--repo", default="VAIPROG/vaidcord")
     parser.add_argument("--out", required=True)
     args = parser.parse_args()
 

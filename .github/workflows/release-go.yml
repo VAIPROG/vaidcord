@@ -157,7 +157,7 @@ jobs:
 
       - name: Request Go module proxy indexing
         run: |
-          MODULE="github.com/!vadim-!khristenko/vaidcord/vaidcord-go"
+          MODULE="github.com/!v!a!i!p!r!o!g/vaidcord/vaidcord-go"
           VERSION="v${{ steps.meta.outputs.version }}"
           for attempt in $(seq 1 10); do
             if curl -sf "https://proxy.golang.org/${MODULE}/@v/${VERSION}.info"; then

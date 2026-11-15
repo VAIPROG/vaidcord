@@ -27,10 +27,10 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/Vadim-Khristenko/vaidcord"
-Repository = "https://github.com/Vadim-Khristenko/vaidcord"
-Issues = "https://github.com/Vadim-Khristenko/vaidcord/issues"
-Documentation = "https://github.com/Vadim-Khristenko/vaidcord/tree/main/vaidcord-py/docs"
+Homepage = "https://github.com/VAIPROG/vaidcord"
+Repository = "https://github.com/VAIPROG/vaidcord"
+Issues = "https://github.com/VAIPROG/vaidcord/issues"
+Documentation = "https://github.com/VAIPROG/vaidcord/tree/main/vaidcord-py/docs"
 
 [project.optional-dependencies]
 dev = [

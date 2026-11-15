@@ -4,7 +4,7 @@ version = "0.2.0"
 edition = "2024"
 description = "High-performance Discord framework: routers, middleware, resilient gateway and full voice transport"
 license = "MIT"
-repository = "https://github.com/Vadim-Khristenko/vaidcord"
+repository = "https://github.com/VAIPROG/vaidcord"
 
 [lib]
 name = "vaidcord"

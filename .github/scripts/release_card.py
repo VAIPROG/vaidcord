@@ -8,7 +8,7 @@ four feature highlights. Pure stdlib; used by the release workflows.
 Example:
     python release_card.py \
         --package vaidcord --version 0.2.0 --language Python \
-        --tag py-v0.2.0 --repo Vadim-Khristenko/vaidcord \
+        --tag py-v0.2.0 --repo VAIPROG/vaidcord \
         --stat "473=tests passing" --stat "89=new API methods" \
         --highlight "Complete voice protocol: play & listen" \
         --out card.svg
@@ -154,7 +154,7 @@ def main() -> None:
     parser.add_argument("--version", required=True)
     parser.add_argument("--language", required=True)
     parser.add_argument("--tag", default="")
-    parser.add_argument("--repo", default="Vadim-Khristenko/vaidcord")
+    parser.add_argument("--repo", default="VAIPROG/vaidcord")
     parser.add_argument("--date", default="")
     parser.add_argument(
         "--stat",

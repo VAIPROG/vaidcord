@@ -66,7 +66,7 @@ pub use voice::{DaveIdentifyConfig, VoiceGatewayCloseCode, VoiceGatewayOpcode};
 pub const LIBRARY_NAME: &str = "vaidcord-rust";
 pub const VERSION: &str = env!("CARGO_PKG_VERSION");
 pub const USER_AGENT: &str = concat!(
-    "DiscordBot (https://github.com/Vadim-Khristenko/vaidcord, ",
+    "DiscordBot (https://github.com/VAIPROG/vaidcord, ",
     env!("CARGO_PKG_VERSION"),
     ") vaidcord-rust/",
     env!("CARGO_PKG_VERSION")

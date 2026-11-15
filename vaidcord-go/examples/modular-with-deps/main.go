@@ -3,8 +3,8 @@ package main
 import (
 	"context"
 
-	"github.com/Vadim-Khristenko/vaidcord/vaidcord-go"
-	"github.com/Vadim-Khristenko/vaidcord/vaidcord-go/examples/modular-with-deps/routers/admin"
+	"github.com/VAIPROG/vaidcord/vaidcord-go"
+	"github.com/VAIPROG/vaidcord/vaidcord-go/examples/modular-with-deps/routers/admin"
 )
 
 func main() {

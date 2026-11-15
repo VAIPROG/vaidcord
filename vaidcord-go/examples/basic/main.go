@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/Vadim-Khristenko/vaidcord/vaidcord-go"
+	"github.com/VAIPROG/vaidcord/vaidcord-go"
 )
 
 func main() {

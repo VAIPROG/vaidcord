@@ -7,7 +7,7 @@ from importlib import metadata
 
 __author__ = "VaidCord Team"
 LIBRARY_NAME = "vaidcord"
-PROJECT_URL = "https://github.com/Vadim-Khristenko/vaidcord"
+PROJECT_URL = "https://github.com/VAIPROG/vaidcord"
 
 
 def _package_version() -> str:

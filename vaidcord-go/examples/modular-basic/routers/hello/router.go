@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/Vadim-Khristenko/vaidcord/vaidcord-go"
+	"github.com/VAIPROG/vaidcord/vaidcord-go"
 )
 
 func Router() *vaidcord.Router {

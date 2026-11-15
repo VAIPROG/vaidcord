@@ -14,7 +14,7 @@ import (
 	"os/signal"
 	"syscall"
 
-	vaidcord "github.com/Vadim-Khristenko/vaidcord/vaidcord-go"
+	vaidcord "github.com/VAIPROG/vaidcord/vaidcord-go"
 )
 
 func main() {

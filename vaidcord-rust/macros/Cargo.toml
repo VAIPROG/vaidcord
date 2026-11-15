@@ -4,7 +4,7 @@ version = "0.2.0"
 edition = "2024"
 description = "Procedural macros for the VaidCord Rust SDK"
 license = "MIT"
-repository = "https://github.com/Vadim-Khristenko/vaidcord"
+repository = "https://github.com/VAIPROG/vaidcord"
 
 [lib]
 proc-macro = true

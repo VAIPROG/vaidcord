@@ -14,7 +14,7 @@ import (
 	"fmt"
 	"log"
 
-	vaidcord "github.com/Vadim-Khristenko/vaidcord/vaidcord-go"
+	vaidcord "github.com/VAIPROG/vaidcord/vaidcord-go"
 )
 
 func main() {
